@@ -1,8 +1,7 @@
 [tomcat]
-172.31.87.28
-172.31.95.239
+10.10.0.33
 
 [tomcat:vars]
 ansible_user=ec2-user
-ansible_private_key_file=/var/lib/jenkins/maven.pem
+ansible_private_key_file=/var/lib/jenkins/keypair-day2.pem
 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
